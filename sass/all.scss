@@ -1,0 +1,20 @@
+@import 'reset';
+@import 'index';
+
+
+// mixin區塊
+@mixin logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-indent:101%;
+    overflow:hidden;
+}
+
+a{
+    @include logo;
+    background-image: url(/img/logo.jpg);
+    background-size: cover;
+    font-size: $font-m;
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+$font-m:30px;
+$font-l:100px;
+
+.demo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    a{
+        background-image: url(/img/logo.jpg);
+        background-size: cover;
+        font-size: $font-m;
+        text-decoration: none;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        li{
+            list-style-type: none;
+            font-size: $font-l;
+            color: blue;
+            padding: 10px;
+        }
+    }
+}
+
